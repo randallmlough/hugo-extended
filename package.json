@@ -1,0 +1,8 @@
+{
+  "name": "hugo-extended",
+  "private": true,
+  "scripts": {
+    "build": "hugo",
+    "prepare": "chmod a+x netlify-build-fix.sh"
+  }
+}
