@@ -2,7 +2,7 @@
   "name": "hugo-extended",
   "private": true,
   "scripts": {
-    "build": "hugo",
+    "build": "LD_LIBRARY_PATH=$(pwd)/tmp/usr/lib/x86_64-linux-gnu $(pwd)/tmp/usr/local/bin/hugo",
     "prepare": "chmod a+x ./netlify-build-fix.sh && ./netlify-build-fix.sh"
   }
 }
