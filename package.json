@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "build": "hugo",
-    "prepare": "chmod a+x netlify-build-fix.sh"
+    "prepare": "chmod a+x ./netlify-build-fix.sh && ./netlify-build-fix.sh"
   }
 }
