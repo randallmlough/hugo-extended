@@ -2,6 +2,6 @@
   "name": "hugo-extended",
   "private": true,
   "scripts": {
-    "build": "NF_IMAGE_VERSION=1 bash ./netlify-build-fix.sh && LD_LIBRARY_PATH=$(pwd)/tmp/usr/lib/x86_64-linux-gnu $(pwd)/tmp/usr/local/bin/hugo"
+    "build": "NF_IMAGE_VERSION=1 bash ./netlify-build-fix.sh && LD_LIBRARY_PATH=$(pwd)/tmp/usr/lib/x86_64-linux-gnu $(pwd)/tmp/usr/local/bin/hugo -b example.com"
   }
 }
